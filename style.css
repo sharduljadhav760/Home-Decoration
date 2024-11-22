@@ -92,6 +92,13 @@
 .img{
   border:4px solid orange;
 }
+.img-fluid{
+  box-shadow: 4px 4px 30px cyan;
+}
+
+.img-fluid:hover{
+  transform:scale(1.1);
+}
 
 /* gym contents */
 .background5{
