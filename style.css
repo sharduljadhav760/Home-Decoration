@@ -1,0 +1,152 @@
+.body{
+    background-color: aqua;
+}
+.text-light{
+    filter: drop-shadow(2px 10px 10px cyan);
+}
+.navbar{
+  position: fixed;
+ 
+}
+.display-2{
+  filter: drop-shadow(2px 10px 10px cyan);
+}
+  
+
+.div {
+    display: flex; /* Makes images align horizontally */
+    gap: 15px; 
+    overflow: hidden; /* Ensures content stays inside the container */
+    box-shadow: 2px 2px 20px rgb(220, 242, 80);
+  }
+  
+  .div{
+    background-color:aquamarine;
+    padding: 40px;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 120px;
+  }
+  .div img {
+    width: 100px;
+    height: 50vh;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    margin: 0 3px; 
+    border-radius: 40px;
+    box-shadow: 4px 4px 30px orange;
+  }
+  .div img:hover {
+    filter: saturate(100%); /* Enlarges the image on hover for better effect */
+    width:50%; /* Brings the image above others */
+  }
+   
+/* bedroom contents */
+
+.back{
+  background-color: rgb(3, 46, 46);
+}
+
+/* dining contents */
+.background{
+  background-color: rgb(145, 87, 12);
+}
+
+/* kitchen contents */
+.background1{
+  background-image: url('backkitch.jpg')  ;
+  background-blend-mode:multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/* temple contents */
+.background2{
+  background-image: url('backtemp.jpg')  ;
+  background-blend-mode:multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/* Backyard contents */
+.background3{
+  background:linear-gradient(135deg,rgb(7, 53, 78),rgb(86, 45, 5),rgb(117, 2, 15))
+}
+
+/* garden contents */
+.background4{
+  background-image: url('backgarden.jpg')  ;
+  background-blend-mode:multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.img{
+  border:4px solid orange;
+}
+
+/* gym contents */
+.background5{
+  background-color: rgb(79, 11, 11);
+}
+.text-warning{
+  filter: drop-shadow(2px 10px 10px orange);
+}
+.text{
+  filter: drop-shadow(2px 10px 10px orange);
+}
+
+/* Background contents */
+.background6{
+  background-image: url('backbath.jpg')  ;
+  background-blend-mode:multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+
+/* Footer contents */
+.background7{
+  background-image: url('backabout.jpg')  ;
+  background-blend-mode:multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/* --------Reviews section------- */
+
+.container .text-center{
+ 
+  filter: drop-shadow(2px 2px 10px orange);
+ 
+}
+.review{
+  padding-top: 30px;
+  }
+  .review h2{
+      color:black;
+  }
+  .background7 .review .card:hover{
+      transform:scale(1.1);
+ }
+ .fa-brands{
+     color:white;
+ }
+ #footer{
+    background-color: rgb(168, 103, 17);
+ }
+
+
+
